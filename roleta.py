@@ -8,7 +8,7 @@ st.title("Roleta de Filmes")
 st.write("Clique no botão abaixo para rodar a roleta entre *Kung Fu Panda* e *Ratatouille*.")
 
 if st.button("Rodar Roleta"):
-    opcao = random.choice(["Kungfupanda", "downloaded"])
+    opcao = random.choice(["Kungfupanda", "download"])
     st.markdown(f"## Filme escolhido: **{opcao}**")
     
     imagem_path = f"{opcao.lower().replace(' ', '_')}.jpg"
